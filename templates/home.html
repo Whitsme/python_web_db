@@ -1,0 +1,33 @@
+
+{% extends 'base.html' %} 
+{#Aaron Whitaker#}
+{#10/7/2022#}
+{#CRN: 10235#}
+{#CIS 226: Advanced Python Programming#}
+
+{% block content %}
+<header class="header">Vegetable Stand</header>
+  <p class="sidebar_left"></p>
+  <div class="container_top_left">
+    <p class="insert"> INSERT{{ INSERT }} </p>
+    <p class="select"> SELECT{{ SELECT }} </p>
+    <p class="create"> CREATE{{ CREATE }} </p>
+  </div>
+  <div class="container_top_right">
+    <p class="input_veg"> VEGETABLE{{ VEGETABLE }} </p>
+    <p class="input_num"> QUANTITY{{ QUANTITY }} </p>
+    <p class="error"> ERROR{{ ERROR }} </p>
+    <p class="warning"> WARNING{{ WARNING }} </p>
+    <p class="confirm"> CONFRIM{{ CONFRIM }} </p>
+  </div>
+  <p class="sidebar_right"></p>
+  <div class="vertical_output">
+    <p class="output"> OUTPUT{{ OUTPUT }} </p>
+  </div>
+  <footer class="footer">
+    © 2022 Aaron Whitaker
+  </footer>
+</div>    
+{% endblock content%}
+
+

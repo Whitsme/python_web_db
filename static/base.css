@@ -1,0 +1,205 @@
+/* 
+Aaron Whitaker
+10/7/2022
+CRN: 10235
+CIS 226: Advanced Python Programming
+*/
+
+.header {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 16px;
+    background: darkgoldenrod;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.sidebar_left {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 11;
+}
+
+.sidebar_right {
+    grid-column-start: 6;
+    grid-row-start: 1;
+    grid-row-end: 11;
+}
+
+.container_top_left {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background: rgb(38, 36, 36);
+    color: whitesmoke;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 2 1fr;
+    grid-template-rows: 2 1fr; */
+    border-left: 5px solid darkgoldenrod;
+    border-right: 1px dotted darkgoldenrod;
+}
+
+.insert {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px groove seagreen;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-right: 2px;
+    margin-left: 3px;
+}
+
+.select {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px groove seagreen;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+    margin-left: 2px;
+}
+
+.create {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px groove seagreen;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.container_top_right {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background: rgb(38, 36, 36);
+    color: whitesmoke;
+    text-align: center;
+    display: grid;
+    /* grid-template-rows: auto; */
+    border-right: 5px solid darkgoldenrod;
+    border-left: 1px dotted darkgoldenrod;
+}
+
+.input_veg {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px groove whitesmoke;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.input_num {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px groove whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.error {
+    display: none;
+    color: red;
+    background-color: rgba(58, 38, 38, 0.753);
+    border: 3px groove red;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;}
+
+.warning {
+    display: none;
+    color: orange;
+    background-color: rgba(58, 43, 38, 0.753);
+    border: 3px groove orange;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.confirm {
+    display: block;
+    color: seagreen;
+    background-color: rgba(38, 58, 46, 0.753);
+    border: 3px groove seagreen;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.vertical_output {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background: rgb(38, 36, 36);
+    border-left: 5px solid darkgoldenrod;
+    border-right: 5px solid darkgoldenrod;
+}
+
+.output{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top: 2px dotted darkgoldenrod;
+}
+
+.footer {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background: darkgoldenrod;
+    height: 1;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+.wrapper {
+display: grid;
+grid-template-columns: 7, 1fr;
+grid-auto-rows: auto;
+}
+
+
